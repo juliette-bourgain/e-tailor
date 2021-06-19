@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/btn-blue.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body (
+font-family:'Lora', serif;
+font-size: 18px;
+margin: 0px; 
+text-align: center;
+background-color :rgb(255,192,203);
+	)
+
+h1, h2 (
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	backgroung-color: rgb(255,192,203);
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	)
+
+h1 {
+	color: rgb(80, 80, 80);
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: rgb(0, 128, 128);
+	font-size: 22px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+width: 700px;
+margin: 40px auto;
+background-color: rgb(255,192,203);
+text-align: center;
+}
+
+.card-design {
+	background-color: rgb(255,192,203);
+	padding: 20px;
+	box-shadow: 5px 10px;
+	border-radius: 7px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color:rgb(255,20,147);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-align: center;
+	font-family:'Lora', serif;
+	margin: 0px 180px;
+}
+
+.btn-blue:hover {
+background-color: rgb(255,20,147);
+color: white;
+}
